@@ -1,0 +1,26 @@
+﻿Build started 5/31/2013 7:57:26 PM.
+     1>Project "C:\Users\Matthias\Dropbox\Matthias\Physics\Physics\MesserundRevolver.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\SDL\SDL_gfx\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GameManager.cpp ProcessInput.cpp main.cpp
+         main.cpp
+         ProcessInput.cpp
+         GameManager.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matthias\Dropbox\Matthias\Physics\Debug\Physics.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SDL\SDL_gfx\lib SDL.lib SDLmain.lib SDL_image.lib SDLgfx.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Matthias\Dropbox\Matthias\Physics\Debug\Physics.pdb" /MAP /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matthias\Dropbox\Matthias\Physics\Debug\Physics.lib" /MACHINE:X86 Debug\GameManager.obj
+         Debug\InputManager.obj
+         Debug\main.obj
+         Debug\Object.obj
+         Debug\Physic.obj
+         Debug\ProcessInput.obj
+         Debug\Quadtree.obj
+         Debug\RessourceManager.obj
+         Debug\Timer.obj
+         Debug\World.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         MesserundRevolver.vcxproj -> C:\Users\Matthias\Dropbox\Matthias\Physics\Debug\Physics.exe
+     1>Done Building Project "C:\Users\Matthias\Dropbox\Matthias\Physics\Physics\MesserundRevolver.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:42.81

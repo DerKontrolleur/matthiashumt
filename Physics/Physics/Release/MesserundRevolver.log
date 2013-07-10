@@ -1,0 +1,29 @@
+﻿Build started 4/20/2013 10:24:12 AM.
+     1>Project "C:\Users\Matthias\Dropbox\Matthias\Physics\Physics\MesserundRevolver.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GameManager.cpp InputManager.cpp main.cpp Object.cpp Physic.cpp ProcessInput.cpp Quadtree.cpp RessourceManager.cpp Timer.cpp World.cpp
+         GameManager.cpp
+     1>c:\users\matthias\dropbox\matthias\physics\physics\Timer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         InputManager.cpp
+     1>c:\users\matthias\dropbox\matthias\physics\physics\InputManager.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         main.cpp
+     1>c:\users\matthias\dropbox\matthias\physics\physics\Timer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Object.cpp
+     1>c:\users\matthias\dropbox\matthias\physics\physics\RessourceManager.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Physic.cpp
+     1>c:\users\matthias\dropbox\matthias\physics\physics\Timer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         ProcessInput.cpp
+     1>c:\users\matthias\dropbox\matthias\physics\physics\Timer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Quadtree.cpp
+     1>c:\users\matthias\dropbox\matthias\physics\physics\QuadTree.h(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         RessourceManager.cpp
+     1>c:\users\matthias\dropbox\matthias\physics\physics\RessourceManager.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Timer.cpp
+     1>c:\users\matthias\dropbox\matthias\physics\physics\Timer.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         World.cpp
+     1>c:\users\matthias\dropbox\matthias\physics\physics\RessourceManager.h(3): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+     1>Done Building Project "C:\Users\Matthias\Dropbox\Matthias\Physics\Physics\MesserundRevolver.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:04.37
